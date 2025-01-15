@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Kita Kerja</title>
+    <title>Kita Kerja IT</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -47,7 +47,7 @@
 
             if (currentSrc.includes("mobile-menu-icon.svg")) {
                 e.target.src = "{{ asset('close.svg') }}";
-                
+
             } else if (currentSrc.includes("close.svg")) {
                 e.target.src = "{{ asset('mobile-menu-icon.svg') }}";
             }
